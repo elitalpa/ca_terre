@@ -2,7 +2,7 @@
 
 ## Index:
 
-- [ ] [00 - L’alphabet](./terre00.py)
+- [x] [00 - L’alphabet](./terre00.py)
 - [ ] [01 - Nom du programme](./terre01.py)
 - [ ] [02 - Afficheur d’arguments](./terre02.py)
 - [ ] [03 - L’alphabet à partir de](./terre03.py)
@@ -21,7 +21,7 @@
 
 ## Sujets
 
-- [ ] [00 - L’alphabet](./terre00.py)
+- [x] [00 - L’alphabet](./terre00.py)
     ```shell
     #$> python terre00.py
     abcdefghijklmnopqrstuvwxyz
