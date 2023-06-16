@@ -6,7 +6,7 @@
 def get_alphabet():
     a_letter = 97
     z_letter = 122
-    az_result = ""
+    alphabet_result = ""
 
     for chr_number in range(a_letter, z_letter + 1):
         alphabet_result += chr(chr_number)
