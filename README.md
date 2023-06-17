@@ -3,7 +3,7 @@
 ## Index:
 
 - [x] [00 - L’alphabet](./terre00.py)
-- [ ] [01 - Nom du programme](./terre01.py)
+- [x] [01 - Nom du programme](./terre01.py)
 - [ ] [02 - Afficheur d’arguments](./terre02.py)
 - [ ] [03 - L’alphabet à partir de](./terre03.py)
 - [ ] [04 - Pair ou impair](./terre04.py)
@@ -27,7 +27,7 @@
     abcdefghijklmnopqrstuvwxyz
     #$>
     ```
-- [ ] [01 - Nom du programme](./terre01.py)
+- [x] [01 - Nom du programme](./terre01.py)
     ```shell
     #$> python terre01.py
     terre01.py
