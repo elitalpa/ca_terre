@@ -4,7 +4,7 @@
 
 - [x] [00 - L’alphabet](./terre00.py)
 - [x] [01 - Nom du programme](./terre01.py)
-- [ ] [02 - Afficheur d’arguments](./terre02.py)
+- [x] [02 - Afficheur d’arguments](./terre02.py)
 - [ ] [03 - L’alphabet à partir de](./terre03.py)
 - [ ] [04 - Pair ou impair](./terre04.py)
 - [ ] [05 - Divisions](./terre05.py)
@@ -35,7 +35,7 @@
     #$> python example.py
     example.py
     ```
-- [ ] [02 - Afficheur d’arguments](./terre02.py)
+- [x] [02 - Afficheur d’arguments](./terre02.py)
     ```shell
     #$> python terre02.py Je suis solide !
     Je
