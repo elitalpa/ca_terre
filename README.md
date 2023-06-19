@@ -6,7 +6,7 @@
 - [x] [01 - Nom du programme](./terre01.py)
 - [x] [02 - Afficheur d’arguments](./terre02.py)
 - [x] [03 - L’alphabet à partir de](./terre03.py)
-- [ ] [04 - Pair ou impair](./terre04.py)
+- [x] [04 - Pair ou impair](./terre04.py)
 - [ ] [05 - Divisions](./terre05.py)
 - [ ] [06 - Inverser une chaîne](./terre06.py)
 - [ ] [07 - Taille d’une chaîne](./terre07.py)
@@ -49,7 +49,7 @@
     nopqrstuvwxyz
     #$>
     ```
-- [ ] [04 - Pair ou impair](./terre04.py)
+- [x] [04 - Pair ou impair](./terre04.py)
     ```shell
     #$> python terre04.py 2
     pair
