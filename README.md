@@ -7,7 +7,7 @@
 - [x] [02 - Afficheur d’arguments](./terre02.py)
 - [x] [03 - L’alphabet à partir de](./terre03.py)
 - [x] [04 - Pair ou impair](./terre04.py)
-- [ ] [05 - Divisions](./terre05.py)
+- [x] [05 - Divisions](./terre05.py)
 - [ ] [06 - Inverser une chaîne](./terre06.py)
 - [ ] [07 - Taille d’une chaîne](./terre07.py)
 - [ ] [08 - Puissance d’un nombre](./terre08.py)
@@ -63,7 +63,7 @@
     #$> python terre04.py
     Tu ne me la mettras pas à l’envers.
     ```
-- [ ] [05 - Divisions](./terre05.py)
+- [x] [05 - Divisions](./terre05.py)
     ```shell
     #$> python terre05.py 5 2
     résultat: 2
