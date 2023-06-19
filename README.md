@@ -77,21 +77,21 @@
     ```
 - [ ] [06 - Inverser une chaîne](./terre06.py)
     ```shell
-    #$> python terre06.py “Hello world!”
+    #$> python terre06.py "Hello world!"
     !dlrow olleH
 
-    #$> python terre06.py “lehciM”
+    #$> python terre06.py "lehciM"
     Michel
     ```
 - [ ] [07 - Taille d’une chaîne](./terre07.py)
     ```shell
-    #$> python terre07.py “Hello world!”
+    #$> python terre07.py "Hello world!"
     12
 
     #$> python terre07.py
     erreur.
 
-    #$> python terre07.py “Bonjour” “Aurevoir”
+    #$> python terre07.py "Bonjour" "Aurevoir"
     erreur.
 
     #$> python terre07.py 10
@@ -144,7 +144,7 @@
     #$> python terre14.py 3 8 9 12
     Triée !
 
-    #$> python terre14.py “Salut”
+    #$> python terre14.py "Salut"
     erreur.
     ```
 - [ ] [15 - Terre : ok](./terre15.py)
