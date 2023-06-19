@@ -20,7 +20,7 @@ def get_alphabet_from(starting_letter):
 starting_letter = ord(sys.argv[1])
 
 ### Problem Solving ###
-alphabet = get_alphabet_from(starting_letter)
+alphabet_from = get_alphabet_from(starting_letter)
 
 ### Result ###
-print(alphabet)
+print(alphabet_from)
