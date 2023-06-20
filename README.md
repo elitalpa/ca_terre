@@ -9,7 +9,7 @@
 - [x] [04 - Pair ou impair](./terre04.py)
 - [x] [05 - Divisions](./terre05.py)
 - [x] [06 - Inverser une chaîne](./terre06.py)
-- [ ] [07 - Taille d’une chaîne](./terre07.py)
+- [x] [07 - Taille d’une chaîne](./terre07.py)
 - [ ] [08 - Puissance d’un nombre](./terre08.py)
 - [ ] [09 - Racine carrée d’un nombre](./terre09.py)
 - [ ] [10 - Nombre premier](./terre10.py)
@@ -83,7 +83,7 @@
     #$> python terre06.py "lehciM"
     Michel
     ```
-- [ ] [07 - Taille d’une chaîne](./terre07.py)
+- [x] [07 - Taille d’une chaîne](./terre07.py)
     ```shell
     #$> python terre07.py "Hello world!"
     12
