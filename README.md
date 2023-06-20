@@ -8,7 +8,7 @@
 - [x] [03 - L’alphabet à partir de](./terre03.py)
 - [x] [04 - Pair ou impair](./terre04.py)
 - [x] [05 - Divisions](./terre05.py)
-- [ ] [06 - Inverser une chaîne](./terre06.py)
+- [x] [06 - Inverser une chaîne](./terre06.py)
 - [ ] [07 - Taille d’une chaîne](./terre07.py)
 - [ ] [08 - Puissance d’un nombre](./terre08.py)
 - [ ] [09 - Racine carrée d’un nombre](./terre09.py)
@@ -75,7 +75,7 @@
     #$> python terre05.py 3 5
     erreur.
     ```
-- [ ] [06 - Inverser une chaîne](./terre06.py)
+- [x] [06 - Inverser une chaîne](./terre06.py)
     ```shell
     #$> python terre06.py "Hello world!"
     !dlrow olleH
