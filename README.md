@@ -14,7 +14,7 @@
 - [x] [09 - Racine carrée d’un nombre](./terre09.py)
 - [x] [10 - Nombre premier](./terre10.py)
 - [x] [11 - 24 to 12](./terre11.py)
-- [ ] [12 - 12 to 24](./terre12.py)
+- [x] [12 - 12 to 24](./terre12.py)
 - [ ] [13 - Trouver la Suisse (lol)](./terre13.py)
 - [ ] [14 - Trié ou pas](./terre14.py)
 - [ ] [15 - Terre : ok](./terre15.py)
@@ -120,7 +120,7 @@
     #$> python terre11.py 23:40
     11:40PM
     ```
-- [ ] [12 - 12 to 24](./terre12.py)
+- [x] [12 - 12 to 24](./terre12.py)
     ```shell
     #$> python terre12.py 11:40PM
     23:40
