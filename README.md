@@ -13,7 +13,7 @@
 - [x] [08 - Puissance d’un nombre](./terre08.py)
 - [x] [09 - Racine carrée d’un nombre](./terre09.py)
 - [x] [10 - Nombre premier](./terre10.py)
-- [ ] [11 - 24 to 12](./terre11.py)
+- [x] [11 - 24 to 12](./terre11.py)
 - [ ] [12 - 12 to 24](./terre12.py)
 - [ ] [13 - Trouver la Suisse (lol)](./terre13.py)
 - [ ] [14 - Trié ou pas](./terre14.py)
@@ -115,7 +115,7 @@
     #$> python terre10.py 6
     Non, 6 n’est pas un nombre premier.
     ```
-- [ ] [11 - 24 to 12](./terre11.py)
+- [x] [11 - 24 to 12](./terre11.py)
     ```shell
     #$> python terre11.py 23:40
     11:40PM
