@@ -11,7 +11,7 @@
 - [x] [06 - Inverser une chaîne](./terre06.py)
 - [x] [07 - Taille d’une chaîne](./terre07.py)
 - [x] [08 - Puissance d’un nombre](./terre08.py)
-- [ ] [09 - Racine carrée d’un nombre](./terre09.py)
+- [x] [09 - Racine carrée d’un nombre](./terre09.py)
 - [ ] [10 - Nombre premier](./terre10.py)
 - [ ] [11 - 24 to 12](./terre11.py)
 - [ ] [12 - 12 to 24](./terre12.py)
@@ -102,7 +102,7 @@
     #$> python terre08.py 2 3
     8
     ```
-- [ ] [09 - Racine carrée d’un nombre](./terre09.py)
+- [x] [09 - Racine carrée d’un nombre](./terre09.py)
     ```shell
     #$> python terre09.py 9
     3
