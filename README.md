@@ -12,7 +12,7 @@
 - [x] [07 - Taille d’une chaîne](./terre07.py)
 - [x] [08 - Puissance d’un nombre](./terre08.py)
 - [x] [09 - Racine carrée d’un nombre](./terre09.py)
-- [ ] [10 - Nombre premier](./terre10.py)
+- [x] [10 - Nombre premier](./terre10.py)
 - [ ] [11 - 24 to 12](./terre11.py)
 - [ ] [12 - 12 to 24](./terre12.py)
 - [ ] [13 - Trouver la Suisse (lol)](./terre13.py)
@@ -107,7 +107,7 @@
     #$> python terre09.py 9
     3
     ```
-- [ ] [10 - Nombre premier](./terre10.py)
+- [x] [10 - Nombre premier](./terre10.py)
     ```shell
     #$> python terre10.py 5
     Oui, 5 est un nombre premier.
