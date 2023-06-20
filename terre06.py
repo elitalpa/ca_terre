@@ -17,14 +17,14 @@ def display_error_message_and_exit():
     print("erreur.")
     exit()
 
-def error():
+def handle_argument_errors():
     if len(sys.argv) != 2:
         display_error_message_and_exit()
     if sys.argv[1].isdigit():
         display_error_message_and_exit()
 
 ### Error ###
-error()
+handle_argument_errors()
 
 ### Parsing ###
 string_input = sys.argv[1]

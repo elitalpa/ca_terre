@@ -13,13 +13,13 @@ def determine_even_or_odd(number_input):
     else:
         return "impair"
 
-def error():
+def handle_argument_errors():
     if len(sys.argv) != 2 or not sys.argv[1].isdigit():
         print("Tu ne me la mettras pas à l’envers.")
         exit()
 
 ### Error ###
-error()
+handle_argument_errors()
 
 ### Parsing ###
 number_input = sys.argv[1]

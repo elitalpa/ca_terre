@@ -22,7 +22,7 @@ def display_error_message_and_exit():
     print("erreur.")
     exit()
 
-def error():
+def handle_argument_errors():
     if len(sys.argv) != 3:
         display_error_message_and_exit()
     if not sys.argv[1].isdigit() or not sys.argv[2].isdigit():
@@ -33,7 +33,7 @@ def error():
         display_error_message_and_exit()
 
 ### Error ###
-error()
+handle_argument_errors()
 
 ### Parsing ###
 first_number_input = sys.argv[1]
