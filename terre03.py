@@ -14,13 +14,22 @@ def get_alphabet_from(starting_letter):
 
     return alphabet_result
 
+def handle_argument_errors():
+    if len(sys.argv) != 2:
+        print("erreur: Veuillez entrer un (seul) argument.")
+        exit()
+    if ord(sys.argv[1]) not in range(97, 122 + 1):
+        print("erreur: Seules les lettres minuscules (faisant partie de l'alphabet ASCII) sont acceptées.")
+        exit()
+
 ### Error ###
+handle_argument_errors()
 
 ### Parsing ###
-starting_letter = ord(sys.argv[1])
+starting_letter_input = ord(sys.argv[1])
 
 ### Problem Solving ###
-alphabet_from = get_alphabet_from(starting_letter)
+alphabet_from = get_alphabet_from(starting_letter_input)
 
 ### Result ###
 print(alphabet_from)
