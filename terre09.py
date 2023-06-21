@@ -13,19 +13,19 @@ def calculate_square_root(number):
             return num
             exit()
     
-    display_error_message_and_exit()
-
-def display_error_message_and_exit():
-    print("erreur.")
+    print("erreur: Impossible d'avoir la racine carrée.")
     exit()
 
 def handle_argument_errors():
     if len(sys.argv) != 2:
-        display_error_message_and_exit()
+        print("erreur: Veuillez n'entrer qu'un (seul) argument.")
+        exit()
     if not sys.argv[1].isdigit():
-        display_error_message_and_exit()
+        print("erreur: Veuillez entrer un entier positif.")
+        exit()
     if int(sys.argv[1]) <= 0:
-        display_error_message_and_exit()
+        print("erreur: Veuillez entrer un entier positif.")
+        exit()
 
 ### Error ###
 handle_argument_errors()
