@@ -27,8 +27,6 @@ def handle_argument_errors():
         print("erreur: Veuillez ne pas entrer plus ou moins de 5 caractères.")
         exit()
 
-    sys.argv[1] = sys.argv[1]
-
     if sys.argv[1][2] != ":":
         print("erreur: Veuillez entrer l'heure au format hh:mm (Exemple: 13:30). Il manque le signe ':' au milieu.")
         exit()
