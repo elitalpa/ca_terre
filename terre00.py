@@ -8,8 +8,8 @@ def get_alphabet():
     z_letter = 122
     alphabet_result = ""
 
-    for chr_number in range(a_letter, z_letter + 1):
-        alphabet_result += chr(chr_number)
+    for ascii_value in range(a_letter, z_letter + 1):
+        alphabet_result += chr(ascii_value)
 
     return alphabet_result
 
