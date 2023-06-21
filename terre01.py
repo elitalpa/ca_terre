@@ -5,8 +5,8 @@ import sys
 
 ### Function ###
 def get_filename():
-    filename_result = sys.argv[0]
-    return filename_result
+    filename_argument = sys.argv[0]
+    return filename_argument
 
 ### Error ###
 
