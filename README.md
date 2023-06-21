@@ -15,9 +15,9 @@
 - [x] [10 - Nombre premier](./terre10.py)
 - [x] [11 - 24 to 12](./terre11.py)
 - [x] [12 - 12 to 24](./terre12.py)
-- [ ] [13 - Trouver la Suisse (lol)](./terre13.py)
-- [ ] [14 - Trié ou pas](./terre14.py)
-- [ ] [15 - Terre : ok](./terre15.py)
+- [x] [13 - Trouver la Suisse (lol)](./terre13.py)
+- [x] [14 - Trié ou pas](./terre14.py)
+- [x] [15 - Terre : ok](./terre15.py)
 
 ## Sujets
 
@@ -125,7 +125,7 @@
     #$> python terre12.py 11:40PM
     23:40
     ```
-- [ ] [13 - Trouver la Suisse (lol)](./terre13.py)
+- [x] [13 - Trouver la Suisse (lol)](./terre13.py)
     ```shell
     #$> python terre13.py 11 40 34
     34
@@ -136,7 +136,7 @@
     #$> python terre13.py 2 2 2
     erreur.
     ```
-- [ ] [14 - Trié ou pas](./terre14.py)
+- [x] [14 - Trié ou pas](./terre14.py)
     ```shell
     #$> python terre14.py 9 8 3
     Pas triée !
@@ -147,7 +147,7 @@
     #$> python terre14.py "Salut"
     erreur.
     ```
-- [ ] [15 - Terre : ok](./terre15.py)
+- [x] [15 - Terre : ok](./terre15.py)
     ```shell
     #$> python terre15.py
     J’ai terminé l’Épreuve de la Terre et c’était [].
