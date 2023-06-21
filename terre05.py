@@ -4,45 +4,45 @@
 import sys
 
 ### Function ###
-def get_result_of_division(first_number, second_number):
-    first_number_int = int(first_number)
-    second_number_int = int(second_number)
+def get_quotient_of_division(dividend, divisor):
+    dividend_int = int(dividend)
+    divisor_int = int(divisor)
 
-    division_result = "résultat: " + str(first_number_int // second_number_int)
-    return division_result
+    division_result_str = "résultat: " + str(dividend_int // divisor_int)
+    return division_result_str
 
-def get_remainder_of_division(first_number, second_number):
-    first_number_int = int(first_number)
-    second_number_int = int(second_number)
+def get_remainder_of_division(dividend, divisor):
+    dividend_int = int(dividend)
+    divisor_int = int(divisor)
 
-    remainder_result = "reste: " + str(first_number_int % second_number_int)
+    remainder_result = "reste: " + str(dividend_int % divisor_int)
     return remainder_result
-
-def display_error_message_and_exit():
-    print("erreur.")
-    exit()
 
 def handle_argument_errors():
     if len(sys.argv) != 3:
-        display_error_message_and_exit()
-    if not sys.argv[1].isdigit() or not sys.argv[2].isdigit():
-        display_error_message_and_exit()
-    if int(sys.argv[1]) <= 0 or int(sys.argv[2]) <= 0:
-        display_error_message_and_exit()
+        print("erreur: Veuillez entrer (seulement) 2 arguments: le dividende et le diviseur.")
+        exit()
+    if not sys.argv[1].strip('-').isdigit() or not sys.argv[2].strip('-').isdigit():
+        print("erreur: Vous avez entré 1 ou 2 arguments qui ne sont pas des nombres entiers.")
+        exit()
+    if int(sys.argv[2]) == 0:
+        print("erreur: Votre diviseur ne peut pas être 0.")
+        exit()
     if int(sys.argv[1]) < int(sys.argv[2]):
-        display_error_message_and_exit()
+        print("erreur: Le nombre que vous essayez de diviser (le dividende) est plus petit que le diviseur.")
+        exit()
 
 ### Error ###
 handle_argument_errors()
 
 ### Parsing ###
-first_number_input = sys.argv[1]
-second_number_input = sys.argv[2]
+dividend_input = sys.argv[1]
+divisor_input = sys.argv[2]
 
 ### Problem Solving ###
-division_result_str = get_result_of_division(first_number_input, second_number_input)
-remainder_result_str = get_remainder_of_division(first_number_input, second_number_input)
+quotient_result_str = get_quotient_of_division(dividend_input, divisor_input)
+remainder_result_str = get_remainder_of_division(dividend_input, divisor_input)
 
 ### Result ###
-print(division_result_str)
+print(quotient_result_str)
 print(remainder_result_str)
