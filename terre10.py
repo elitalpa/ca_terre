@@ -11,7 +11,6 @@ def is_prime_number_or_not(number):
     response_message = ""
 
     for i in range(2, number_int - 1):
-        #print(i)
         if number_int % i == 0 :
             response_message = "Non, " + str(number_int) + " n’est pas un nombre premier."
             return response_message
@@ -19,17 +18,16 @@ def is_prime_number_or_not(number):
     response_message = "Oui, " + str(number_int) + " est un nombre premier."
     return response_message
 
-def display_error_message_and_exit():
-    print("erreur.")
-    exit()
-
 def handle_argument_errors():
     if len(sys.argv) != 2:
-        display_error_message_and_exit()
+        print("erreur: Veuillez n'entrer qu'un (seul) argument.")
+        exit()
     if not sys.argv[1].isdigit():
-        display_error_message_and_exit()
+        print("erreur: Veuillez entrer un entier positif.")
+        exit()
     if int(sys.argv[1]) <= 1:
-        display_error_message_and_exit()
+        print("erreur: Vous ne pouvez pas entrer un nombre inférieur ou égal à 1.")
+        exit()
 
 ### Error ###
 handle_argument_errors()
