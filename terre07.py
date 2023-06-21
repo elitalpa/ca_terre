@@ -12,15 +12,10 @@ def number_of_chr_in_str(string):
     
     return number_of_chr
 
-def display_error_message_and_exit():
-    print("erreur.")
-    exit()
-
 def handle_argument_errors():
-    if len(sys.argv) != 2:
-        display_error_message_and_exit()
-    if sys.argv[1].isdigit():
-        display_error_message_and_exit()
+    if len(sys.argv) != 2 or sys.argv[1].isdigit():
+        print("erreur: Veuillez entrer une (seule) chaîne de caractères comme argument.")
+        exit()
 
 ### Error ###
 handle_argument_errors()
