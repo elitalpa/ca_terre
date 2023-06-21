@@ -11,22 +11,24 @@ def number_to_the_power_of_exponent(number, exponent):
     exponent_int = int(exponent)
     power_result = number_int
 
-    for power in range(exponent_int - 1):
-        power_result *= number_int
-    
-    return power_result
+    if exponent_int == 0:
+        power_result = 1
+    else:
+        for power in range(exponent_int - 1):
+            power_result *= number_int
 
-def display_error_message_and_exit():
-    print("erreur.")
-    exit()
+    return power_result
 
 def handle_argument_errors():
     if len(sys.argv) != 3:
-        display_error_message_and_exit()
-    if not sys.argv[1].strip('-').isdigit() or not sys.argv[2].isdigit():
-        display_error_message_and_exit()
-    if int(sys.argv[2]) <= 0:
-        display_error_message_and_exit()
+        print("erreur: Veuillez entrer (seulement) 2 arguments: la base et l'exposant.")
+        exit()
+    if not sys.argv[1].strip('-').isdigit() or not sys.argv[2].strip('-').isdigit():
+        print("erreur: Vous avez entré 1 ou 2 arguments qui ne sont pas des nombres entiers.")
+        exit()
+    if int(sys.argv[2]) < 0:
+        print("erreur: L'exposant ne peut pas être négatif.")
+        exit()
 
 ### Error ###
 handle_argument_errors()
