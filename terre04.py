@@ -5,7 +5,7 @@
 import sys
 
 ### Function ###
-def is_even_or_odd(number_input):
+def is_even(number_input):
     number_int = int(number_input)
 
     if number_int % 2 == 0:
@@ -14,7 +14,7 @@ def is_even_or_odd(number_input):
         return False
 
 def handle_argument_errors():
-    if len(sys.argv) != 2 or not sys.argv[1].isdigit():
+    if len(sys.argv) != 2 or not sys.argv[1].strip('-').isdigit():
         print("Tu ne me la mettras pas à l’envers.")
         exit()
 
@@ -25,7 +25,7 @@ handle_argument_errors()
 number_input = sys.argv[1]
 
 ### Problem Solving ###
-even_or_odd_result = "pair" if is_even_or_odd(number_input) else "impair"
+even_or_odd_result = "pair" if is_even(number_input) else "impair"
 
 ### Result ###
 print(even_or_odd_result)
