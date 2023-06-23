@@ -6,17 +6,15 @@
 import sys
 
 ### Function ###
-def is_prime_number_or_not(number):
+def is_prime_number(number):
     number_int = int(number)
     response_message = ""
 
     for i in range(2, number_int - 1):
         if number_int % i == 0 :
-            response_message = "Non, " + str(number_int) + " n’est pas un nombre premier."
-            return response_message
+            return False
 
-    response_message = "Oui, " + str(number_int) + " est un nombre premier."
-    return response_message
+    return True
 
 def handle_argument_errors():
     if len(sys.argv) != 2:
@@ -36,7 +34,7 @@ handle_argument_errors()
 number_input = sys.argv[1]
 
 ### Problem Solving ###
-is_prime_number_or_not_result = is_prime_number_or_not(number_input)
+is_prime_number_result = f"Oui, {number_input} est un nombre premier." if is_prime_number(number_input) else f"Non, {number_input} n’est pas un nombre premier." 
 
 ### Result ###
-print(is_prime_number_or_not_result)
+print(is_prime_number_result)
