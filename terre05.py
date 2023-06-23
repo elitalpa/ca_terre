@@ -4,19 +4,16 @@
 import sys
 
 ### Function ###
-def get_quotient_of_division(dividend, divisor):
+def calculate_division(dividend, divisor):
     dividend_int = int(dividend)
     divisor_int = int(divisor)
 
-    division_result_str = "résultat: " + str(dividend_int // divisor_int)
-    return division_result_str
+    quotient_result_str = "résultat: " + str(dividend_int // divisor_int)
+    remainder_str = "reste: " + str(dividend_int % divisor_int)
 
-def get_remainder_of_division(dividend, divisor):
-    dividend_int = int(dividend)
-    divisor_int = int(divisor)
+    division_str = quotient_result_str + "\n" + remainder_str
 
-    remainder_result = "reste: " + str(dividend_int % divisor_int)
-    return remainder_result
+    return division_str
 
 def handle_argument_errors():
     if len(sys.argv) != 3:
@@ -40,9 +37,7 @@ dividend_input = sys.argv[1]
 divisor_input = sys.argv[2]
 
 ### Problem Solving ###
-quotient_result_str = get_quotient_of_division(dividend_input, divisor_input)
-remainder_result_str = get_remainder_of_division(dividend_input, divisor_input)
+division_quotient_and_remainder_str = calculate_division(dividend_input, divisor_input)
 
 ### Result ###
-print(quotient_result_str)
-print(remainder_result_str)
+print(division_quotient_and_remainder_str)
