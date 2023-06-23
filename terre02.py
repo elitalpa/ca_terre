@@ -12,13 +12,7 @@ def get_arguments_in_lines(arguments):
 
     return arguments_in_lines
 
-def handle_argument_errors():
-    if len(sys.argv) < 2:
-        print("erreur: Veuillez entrer un ou plusieurs arguments.")
-        exit()
-
 ### Error ###
-handle_argument_errors()
 
 ### Parsing ###
 arguments_input = sys.argv[1:]
