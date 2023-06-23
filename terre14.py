@@ -4,7 +4,7 @@
 import sys
 
 ### Function ###
-def is_the_list_sorted_or_not(number_list):
+def is_the_list_sorted(number_list):
     index = 0
     stop_index = len(number_list) - 1
 
@@ -13,11 +13,11 @@ def is_the_list_sorted_or_not(number_list):
             break
 
         if not int(number_list[index]) < int(number_list[index + 1]):
-            return "Pas triée !"
+            return False
         
         index += 1
 
-    return "Triée"
+    return True
 
 def handle_argument_errors():
     if len(sys.argv) <= 2:
@@ -36,8 +36,8 @@ handle_argument_errors()
 number_list = sys.argv[1:]
 
 ### Problem Solving ###
-is_the_list_sorted_or_not_result = is_the_list_sorted_or_not(number_list)
+is_the_list_sorted_result = "Triée !" if is_the_list_sorted(number_list) else "Pas triée !"
 
 ### Result ###
-print(is_the_list_sorted_or_not_result)
+print(is_the_list_sorted_result)
 
