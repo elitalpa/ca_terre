@@ -9,9 +9,9 @@ def is_even_or_odd(number_input):
     number_int = int(number_input)
 
     if number_int % 2 == 0:
-        return "pair"
+        return True
     else:
-        return "impair"
+        return False
 
 def handle_argument_errors():
     if len(sys.argv) != 2 or not sys.argv[1].isdigit():
@@ -25,7 +25,7 @@ handle_argument_errors()
 number_input = sys.argv[1]
 
 ### Problem Solving ###
-even_or_odd_result = is_even_or_odd(number_input)
+even_or_odd_result = "pair" if is_even_or_odd(number_input) else "impair"
 
 ### Result ###
 print(even_or_odd_result)
