@@ -6,7 +6,7 @@ import random
 
 ### Function ###
 def get_victory_message():
-    adjective_of_victory = ["tellurique", "gérable", "faisable"]
+    adjective_of_victory = ["tellurique", "surmontable", "faisable"]
     victory_index = random.randint(0,2)
     return f"J’ai terminé l’Épreuve de la Terre et c’était {adjective_of_victory[victory_index]}."
 
